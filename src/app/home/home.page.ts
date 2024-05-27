@@ -3,9 +3,7 @@ import { Router } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
-  IonTitle,
   IonContent,
-  IonButtons,
   IonButton,
   IonIcon,
 } from '@ionic/angular/standalone';
@@ -20,11 +18,9 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [
     IonIcon,
-    IonButtons,
     IonButton,
     IonHeader,
     IonToolbar,
-    IonTitle,
     IonContent,
     CommonModule,
     LoaderComponent,

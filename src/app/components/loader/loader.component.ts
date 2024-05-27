@@ -60,14 +60,6 @@ export class LoaderComponent implements OnInit {
     this.intervalId = setInterval(() => {
       this.currentImageIndex =
         (this.currentImageIndex + 1) % this.images.length;
-      /* if (
-        this.currentImageIndex > 0 &&
-        this.currentImageIndex < this.images.length
-      ) {
-        this.currentImageIndex++;
-      } else {
-        this.currentImageIndex = 0;
-      } */
     }, this.interval);
   }
 
