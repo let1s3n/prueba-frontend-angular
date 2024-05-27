@@ -18,37 +18,37 @@ export class LoaderComponent implements OnInit {
 
   config1 = [
     {
-      src: 'assets/bulbasaur.png',
+      src: 'assets/images/bulbasaur.png',
       text: 'Mira este Bulbasaur mientras esperas...',
     },
     {
-      src: 'assets/squirtle.png',
+      src: 'assets/images/squirtle.png',
       text: 'Mira este Squirtle mientras esperas...',
     },
     {
-      src: 'assets/charmander.png',
+      src: 'assets/images/charmander.png',
       text: 'Mira este Charmander mientras esperas...',
     },
     {
-      src: 'assets/pikachu.png',
+      src: 'assets/images/pikachu.png',
       text: 'Mira este Pikachu mientras esperas...',
     },
   ];
 
   config2 = [
     {
-      src: 'assets/chikorita.webp',
+      src: 'assets/images/chikorita.webp',
       text: 'Mira este Chikorita mientras esperas...',
     },
     {
-      src: 'assets/cyndaquil.webp',
+      src: 'assets/images/cyndaquil.webp',
       text: 'Mira este Cyndaquil mientras esperas...',
     },
     {
-      src: 'assets/totodile.webp',
+      src: 'assets/images/totodile.webp',
       text: 'Mira este Totodile mientras esperas...',
     },
-    { src: 'assets/pichu.webp', text: 'Mira este Pichu mientras esperas...' },
+    { src: 'assets/images/pichu.webp', text: 'Mira este Pichu mientras esperas...' },
   ];
 
   ngOnInit() {

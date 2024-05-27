@@ -34,4 +34,85 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import '@ionic/angular/css/palettes/dark.system.css';
+@import "@ionic/angular/css/palettes/dark.system.css";
+
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file);
+  }
+}
+
+@include font("poppins-regular", "./assets/fonts/Poppins/Poppins-Regular.ttf");
+@include font("poppins-medium", "./assets/fonts/Poppins/Poppins-Medium.ttf");
+@include font("poppins-bold", "./assets/fonts/Poppins/Poppins-Bold.ttf");
+
+html.md {
+  --ion-default-font: poppins-regular;
+}
+
+:root {
+  --ion-background-color: #e9f4ff;
+  --ion-background-color-rgb: 233, 244, 255;
+
+  --ion-text-color: #000000;
+  --ion-text-color-rgb: 0, 0, 0;
+
+  --ion-text-color-step-50: #0c0c0d;
+  --ion-text-color-step-100: #17181a;
+  --ion-text-color-step-150: #232526;
+  --ion-text-color-step-200: #2f3133;
+  --ion-text-color-step-250: #3a3d40;
+  --ion-text-color-step-300: #46494d;
+  --ion-text-color-step-350: #525559;
+  --ion-text-color-step-400: #5d6266;
+  --ion-text-color-step-450: #696e73;
+  --ion-text-color-step-500: #757a80;
+  --ion-text-color-step-550: #80868c;
+  --ion-text-color-step-600: #8c9299;
+  --ion-text-color-step-650: #979fa6;
+  --ion-text-color-step-700: #a3abb3;
+  --ion-text-color-step-750: #afb7bf;
+  --ion-text-color-step-800: #bac3cc;
+  --ion-text-color-step-850: #c6cfd9;
+  --ion-text-color-step-900: #d2dce6;
+  --ion-text-color-step-950: #dde8f2;
+
+  --ion-background-color-step-50: #dde8f2;
+  --ion-background-color-step-100: #d2dce6;
+  --ion-background-color-step-150: #c6cfd9;
+  --ion-background-color-step-200: #bac3cc;
+  --ion-background-color-step-250: #afb7bf;
+  --ion-background-color-step-300: #a3abb3;
+  --ion-background-color-step-350: #979fa6;
+  --ion-background-color-step-400: #8c9299;
+  --ion-background-color-step-450: #80868c;
+  --ion-background-color-step-500: #757a80;
+  --ion-background-color-step-550: #696e73;
+  --ion-background-color-step-600: #5d6266;
+  --ion-background-color-step-650: #525559;
+  --ion-background-color-step-700: #46494d;
+  --ion-background-color-step-750: #3a3d40;
+  --ion-background-color-step-800: #2f3133;
+  --ion-background-color-step-850: #232526;
+  --ion-background-color-step-900: #171819;
+  --ion-background-color-step-950: #0c0c0d;
+}
+
+.poppins-regular {
+  font-family: poppins-regular;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: poppins-medium;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: poppins-bold;
+  font-weight: 700;
+  font-style: normal;
+}
